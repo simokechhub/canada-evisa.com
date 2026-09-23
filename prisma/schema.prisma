@@ -1,0 +1,421 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Country {
+  id                       String                     @id
+  name                     String                     @unique
+  slug                     String                     @unique
+  flag                     String
+  continent                String
+  imageUrl                 String?                    @db.VarChar(500)
+  createdAt                DateTime                   @default(now())
+  updatedAt                DateTime
+  isPublished              Boolean                    @default(false)
+  isTopDestination         Boolean                    @default(false)
+  nameFr                   String?                    @db.VarChar(120)
+  slugFr                   String?                    @unique @db.VarChar(120)
+  country_translations     country_translations[]
+  evisa_eligible_countries evisa_eligible_countries[]
+  evisas                   evisas[]
+}
+
+model article_seo {
+  id                 String   @id
+  articleId          String   @unique
+  metaTitle          String?  @db.VarChar(255)
+  metaDescription    String?  @db.Text
+  metaKeywords       String?  @db.Text
+  ogTitle            String?  @db.VarChar(255)
+  ogDescription      String?  @db.Text
+  ogImage            String?  @db.VarChar(500)
+  twitterTitle       String?  @db.VarChar(255)
+  twitterDescription String?  @db.Text
+  twitterImage       String?  @db.VarChar(500)
+  canonicalUrl       String?  @db.VarChar(500)
+  structuredData     String?  @db.Text
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime
+}
+
+model article_translations {
+  id               String   @id
+  articleId        String
+  locale           String   @db.VarChar(10)
+  slug             String   @db.VarChar(255)
+  title            String   @db.VarChar(255)
+  excerpt          String?  @db.Text
+  content          String   @db.LongText
+  flexibleContent  String?  @db.LongText
+  metaTitle        String?  @db.VarChar(255)
+  metaDescription  String?  @db.Text
+  metaKeywords     String?  @db.Text
+  pageTitle        String?  @db.VarChar(255)
+  pageIntroduction String?  @db.Text
+  heroTitle        String?  @db.VarChar(255)
+  heroSubtitle     String?  @db.Text
+  faqTitle         String?  @db.VarChar(255)
+  faqItems         String?  @db.Text
+  ctaTitle         String?  @db.VarChar(255)
+  ctaDescription   String?  @db.Text
+  ctaButtonText    String?  @db.VarChar(100)
+  additionalInfo   String?  @db.Text
+  isPublished      Boolean  @default(false)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime
+  articles         articles @relation(fields: [articleId], references: [id], onDelete: Cascade)
+
+  @@unique([articleId, locale])
+  @@unique([locale, slug])
+  @@index([isPublished])
+}
+
+model articles {
+  id                   String                 @id
+  title                String                 @db.VarChar(255)
+  slug                 String                 @unique
+  excerpt              String?                @db.Text
+  content              String                 @db.LongText
+  featuredImage        String?                @db.VarChar(500)
+  countryId            String?
+  isPublished          Boolean                @default(false)
+  isFeatured           Boolean                @default(false)
+  readingTime          Int?
+  author               String?                @db.VarChar(100)
+  tags                 String?                @db.Text
+  category             String?                @db.VarChar(100)
+  publishedAt          DateTime?
+  createdAt            DateTime               @default(now())
+  updatedAt            DateTime
+  flexibleContent      String?                @db.LongText
+  additionalInfo       String?                @db.Text
+  ctaButtonText        String?                @db.VarChar(100)
+  ctaDescription       String?                @db.Text
+  ctaTitle             String?                @db.VarChar(255)
+  faqItems             String?                @db.Text
+  faqTitle             String?                @db.VarChar(255)
+  heroImage            String?                @db.VarChar(500)
+  heroSubtitle         String?                @db.Text
+  heroTitle            String?                @db.VarChar(255)
+  metaDescription      String?                @db.Text
+  metaKeywords         String?                @db.Text
+  metaTitle            String?                @db.VarChar(255)
+  pageIntroduction     String?                @db.Text
+  pageTitle            String?                @db.VarChar(255)
+  evisaId              String?
+  article_translations article_translations[]
+  evisas               evisas?                @relation(fields: [evisaId], references: [id])
+
+  @@index([category])
+  @@index([countryId])
+  @@index([evisaId])
+  @@index([isFeatured])
+  @@index([isPublished])
+}
+
+model clients {
+  id                 String    @id
+  email              String    @unique
+  source             String
+  active             Boolean   @default(false)
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime
+  codeExpiresAt      DateTime?
+  isVerified         Boolean   @default(false)
+  verificationCode   String?
+  expoPushToken      String?
+  platform           String?
+  pushTokenUpdatedAt DateTime?
+}
+
+model contacts {
+  id        String   @id
+  name      String
+  email     String
+  message   String
+  status    String   @default("PENDING")
+  createdAt DateTime @default(now())
+  updatedAt DateTime
+  userId    String?
+  users     users?   @relation(fields: [userId], references: [id])
+
+  @@index([userId], map: "contacts_userId_fkey")
+}
+
+model country_page_content {
+  id                   String   @id
+  countryId            String
+  metaTitle            String?  @db.VarChar(255)
+  metaDescription      String?  @db.Text
+  metaKeywords         String?  @db.Text
+  pageTitle            String?  @db.VarChar(255)
+  pageIntroduction     String?  @db.Text
+  heroTitle            String?  @db.VarChar(255)
+  heroSubtitle         String?  @db.Text
+  heroImage            String?  @db.VarChar(500)
+  availableEvisasTitle String?  @db.VarChar(255)
+  flexibleContent      String?  @db.LongText
+  faqTitle             String?  @db.VarChar(255)
+  faqItems             String?  @db.Text
+  ctaTitle             String?  @db.VarChar(255)
+  ctaDescription       String?  @db.Text
+  ctaButtonText        String?  @db.VarChar(100)
+  additionalInfo       String?  @db.Text
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime
+  locale               String   @default("en") @db.VarChar(10)
+
+  @@unique([countryId, locale])
+}
+
+model country_translations {
+  id        String   @id
+  countryId String
+  locale    String   @db.VarChar(10)
+  name      String   @db.VarChar(200)
+  slug      String   @db.VarChar(120)
+  createdAt DateTime @default(now())
+  updatedAt DateTime
+  Country   Country  @relation(fields: [countryId], references: [id], onDelete: Cascade)
+
+  @@unique([countryId, locale])
+  @@unique([locale, slug])
+}
+
+model evisa_applications {
+  id                String    @id
+  evisaId           String?
+  evisaTypeId       String?
+  applicationNumber String    @unique
+  formData          String    @db.LongText
+  applicantEmail    String
+  applicantName     String
+  dateOfEntry       DateTime?
+  totalAmount       Float
+  governmentFee     Float
+  serviceFee        Float
+  stripePaymentId   String?
+  paymentStatus     String    @default("PENDING")
+  status            String    @default("PENDING")
+  submittedAt       DateTime  @default(now())
+  updatedAt         DateTime
+  rejectionReason   String?
+  processedAt       DateTime?
+  clientId          String?
+
+  @@index([clientId], map: "evisa_applications_clientId_fkey")
+  @@index([evisaId], map: "evisa_applications_evisaId_fkey")
+  @@index([evisaTypeId], map: "evisa_applications_evisaTypeId_fkey")
+}
+
+model evisa_eligible_countries {
+  id        String   @id
+  evisaId   String
+  countryId String
+  createdAt DateTime @default(now())
+  Country   Country  @relation(fields: [countryId], references: [id])
+
+  @@unique([evisaId, countryId])
+  @@index([countryId], map: "evisa_eligible_countries_countryId_fkey")
+}
+
+model evisa_form_fields {
+  id            String  @id
+  evisaId       String
+  label         String
+  name          String
+  type          String
+  required      Boolean @default(false)
+  placeholder   String?
+  options       String?
+  validation    String?
+  order         Int     @default(0)
+  fieldGroupId  String?
+  labelFr       String? @db.Text
+  placeholderFr String? @db.Text
+  optionsFr     String? @db.Text
+
+  @@index([evisaId], map: "evisa_form_fields_evisaId_fkey")
+  @@index([fieldGroupId], map: "evisa_form_fields_fieldGroupId_fkey")
+}
+
+model evisa_page_content {
+  id               String   @id
+  evisaId          String
+  metaTitle        String?  @db.VarChar(255)
+  metaDescription  String?  @db.Text
+  metaKeywords     String?  @db.Text
+  pageTitle        String?  @db.VarChar(255)
+  pageIntroduction String?  @db.Text
+  heroTitle        String?  @db.VarChar(255)
+  heroSubtitle     String?  @db.Text
+  heroImage        String?  @db.VarChar(500)
+  flexibleContent  String?  @db.LongText
+  faqTitle         String?  @db.VarChar(255)
+  faqItems         String?  @db.Text
+  ctaTitle         String?  @db.VarChar(255)
+  ctaDescription   String?  @db.Text
+  ctaButtonText    String?  @db.VarChar(100)
+  additionalInfo   String?  @db.Text
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime
+  locale           String   @default("en") @db.VarChar(10)
+
+  @@unique([evisaId, locale])
+}
+
+model evisa_translations {
+  id        String   @id
+  evisaId   String
+  locale    String   @db.VarChar(10)
+  name      String   @db.VarChar(200)
+  slug      String   @db.VarChar(120)
+  createdAt DateTime @default(now())
+  updatedAt DateTime
+  evisas    evisas   @relation(fields: [evisaId], references: [id], onDelete: Cascade)
+
+  @@unique([evisaId, locale])
+}
+
+model evisa_types {
+  id              String   @id
+  evisaId         String
+  name            String
+  validity        String?
+  maxStayPerEntry String?
+  processingTime  String?
+  purposeOfTravel String?
+  entryType       String
+  governmentFee   Float
+  serviceFee      Float
+  totalFee        Float
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime
+  maxStayType     String   @default("TOTAL")
+  nameFr          String?  @db.VarChar(200)
+  evisas          evisas   @relation(fields: [evisaId], references: [id])
+
+  @@index([evisaId], map: "evisa_types_evisaId_fkey")
+}
+
+model evisas {
+  id                 String               @id
+  name               String
+  slug               String
+  countryId          String
+  description        String?
+  processingTime     String
+  heroImage          String?              @db.VarChar(500)
+  isActive           Boolean              @default(true)
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime
+  nameFr             String?              @db.VarChar(200)
+  slugFr             String?              @db.VarChar(120)
+  articles           articles[]
+  evisa_translations evisa_translations[]
+  evisa_types        evisa_types[]
+  Country            Country              @relation(fields: [countryId], references: [id])
+
+  @@unique([countryId, name])
+  @@unique([countryId, slugFr])
+  @@unique([countryId, slug])
+}
+
+model field_groups {
+  id          String   @id
+  name        String   @unique
+  description String?
+  icon        String?
+  color       String?
+  order       Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime
+}
+
+model newsletters {
+  id        String   @id
+  email     String   @unique
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+  updatedAt DateTime
+  userId    String?
+  users     users?   @relation(fields: [userId], references: [id])
+
+  @@index([userId], map: "newsletters_userId_fkey")
+}
+
+model page_seo {
+  id                 String   @id
+  pageType           String   @unique
+  metaTitle          String?  @db.VarChar(255)
+  metaDescription    String?  @db.Text
+  metaKeywords       String?  @db.Text
+  ogTitle            String?  @db.VarChar(255)
+  ogDescription      String?  @db.Text
+  ogImage            String?  @db.VarChar(500)
+  twitterTitle       String?  @db.VarChar(255)
+  twitterDescription String?  @db.Text
+  twitterImage       String?  @db.VarChar(500)
+  canonicalUrl       String?  @db.VarChar(500)
+  structuredData     String?  @db.Text
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime
+}
+
+model posts {
+  id               String    @id
+  title            String    @db.VarChar(255)
+  content          String    @db.LongText
+  excerpt          String?   @db.Text
+  slug             String    @unique
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime
+  additionalInfo   String?   @db.Text
+  author           String?   @db.VarChar(100)
+  category         String?   @db.VarChar(100)
+  ctaButtonText    String?   @db.VarChar(100)
+  ctaDescription   String?   @db.Text
+  ctaTitle         String?   @db.VarChar(255)
+  faqItems         String?   @db.Text
+  faqTitle         String?   @db.VarChar(255)
+  featuredImage    String?   @db.VarChar(500)
+  flexibleContent  String?   @db.LongText
+  heroImage        String?   @db.VarChar(500)
+  heroSubtitle     String?   @db.Text
+  heroTitle        String?   @db.VarChar(255)
+  isFeatured       Boolean   @default(false)
+  isPublished      Boolean   @default(false)
+  metaDescription  String?   @db.Text
+  metaKeywords     String?   @db.Text
+  metaTitle        String?   @db.VarChar(255)
+  pageIntroduction String?   @db.Text
+  pageTitle        String?   @db.VarChar(255)
+  publishedAt      DateTime?
+  readingTime      Int?
+  tags             String?   @db.Text
+
+  @@index([category])
+  @@index([isFeatured])
+  @@index([isPublished])
+}
+
+model users {
+  id          String        @id
+  username    String        @unique
+  email       String        @unique
+  password    String
+  name        String
+  role        String        @default("USER")
+  isActive    Boolean       @default(true)
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime
+  contacts    contacts[]
+  newsletters newsletters[]
+}

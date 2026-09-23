@@ -1,0 +1,1058 @@
+[
+  {
+    "slug": {
+      "fr": "citoyens-francais",
+      "en": "french-citizens"
+    },
+    "country": {
+      "fr": "la France",
+      "en": "France"
+    },
+    "countryShort": {
+      "fr": "France",
+      "en": "France"
+    },
+    "nationality": {
+      "fr": "français",
+      "en": "French"
+    },
+    "adjective": {
+      "fr": "française",
+      "en": "French"
+    },
+    "demonym": {
+      "fr": "Français",
+      "en": "French"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Paris-Charles-de-Gaulle vers Montréal, Toronto et Vancouver, et vols saisonniers vers Montréal depuis plusieurs villes de province.",
+      "en": "Nonstop flights from Paris Charles de Gaulle to Montreal, Toronto and Vancouver, plus seasonal flights to Montreal from several regional French cities."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Paris-Charles-de-Gaulle",
+        "Lyon-Saint-Exupéry",
+        "Marseille-Provence",
+        "Nice-Côte d’Azur"
+      ],
+      "en": [
+        "Paris Charles de Gaulle",
+        "Lyon-Saint-Exupéry",
+        "Marseille Provence",
+        "Nice Côte d’Azur"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "Air France",
+      "Air Transat"
+    ],
+    "flightDuration": {
+      "fr": "Environ 7 h 30 à 8 h vers Montréal en direct, 10 h vers Vancouver",
+      "en": "About 7 hr 30 min to 8 hr to Montreal nonstop, 10 hr to Vancouver"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et les vacances de fin d'année",
+      "en": "July, August and the Christmas holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport français en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid French passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-belges",
+      "en": "belgian-citizens"
+    },
+    "country": {
+      "fr": "la Belgique",
+      "en": "Belgium"
+    },
+    "countryShort": {
+      "fr": "Belgique",
+      "en": "Belgium"
+    },
+    "nationality": {
+      "fr": "belge",
+      "en": "Belgian"
+    },
+    "adjective": {
+      "fr": "belge",
+      "en": "Belgian"
+    },
+    "demonym": {
+      "fr": "Belges",
+      "en": "Belgian"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Bruxelles vers Montréal et Toronto, et nombreuses correspondances via Paris, Amsterdam ou Francfort.",
+      "en": "Nonstop flights from Brussels to Montreal and Toronto, and many connections via Paris, Amsterdam or Frankfurt."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Bruxelles-National",
+        "Charleroi (vols via une escale)"
+      ],
+      "en": [
+        "Brussels Airport",
+        "Charleroi (connecting flights)"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "Air Transat"
+    ],
+    "flightDuration": {
+      "fr": "Environ 8 h vers Montréal en direct",
+      "en": "About 8 hr to Montreal nonstop"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et les vacances de Noël",
+      "en": "July, August and the Christmas holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport belge en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Belgian passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-suisses",
+      "en": "swiss-citizens"
+    },
+    "country": {
+      "fr": "la Suisse",
+      "en": "Switzerland"
+    },
+    "countryShort": {
+      "fr": "Suisse",
+      "en": "Switzerland"
+    },
+    "nationality": {
+      "fr": "suisse",
+      "en": "Swiss"
+    },
+    "adjective": {
+      "fr": "suisse",
+      "en": "Swiss"
+    },
+    "demonym": {
+      "fr": "Suisses",
+      "en": "Swiss"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "CHF",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Zurich et de Genève vers Montréal et Toronto, et correspondances via les grandes plateformes européennes.",
+      "en": "Nonstop flights from Zurich and Geneva to Montreal and Toronto, and connections via the main European hubs."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Zurich",
+        "Genève"
+      ],
+      "en": [
+        "Zurich",
+        "Geneva"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "Swiss"
+    ],
+    "flightDuration": {
+      "fr": "Environ 8 h 30 vers Montréal ou Toronto en direct",
+      "en": "About 8 hr 30 min to Montreal or Toronto nonstop"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et les vacances de fin d'année",
+      "en": "July, August and the Christmas holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport suisse en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Swiss passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-luxembourgeois",
+      "en": "luxembourg-citizens"
+    },
+    "country": {
+      "fr": "le Luxembourg",
+      "en": "Luxembourg"
+    },
+    "countryShort": {
+      "fr": "Luxembourg",
+      "en": "Luxembourg"
+    },
+    "nationality": {
+      "fr": "luxembourgeois",
+      "en": "Luxembourg"
+    },
+    "adjective": {
+      "fr": "luxembourgeoise",
+      "en": "Luxembourg"
+    },
+    "demonym": {
+      "fr": "Luxembourgeois",
+      "en": "Luxembourg"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "B",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Pas de vol direct : les itinéraires passent par Paris, Francfort, Amsterdam ou Bruxelles, également accessible en train.",
+      "en": "No nonstop flights: routes connect via Paris, Frankfurt, Amsterdam or Brussels, which is also reachable by train."
+    },
+    "transitWarning": {
+      "fr": "L'AVE doit être valide dès l'embarquement sur le vol à destination du Canada, y compris si le premier tronçon part du Luxembourg.",
+      "en": "The eTA must be valid when you board the flight to Canada, even if the first leg departs from Luxembourg."
+    },
+    "airports": {
+      "fr": [
+        "Luxembourg-Findel"
+      ],
+      "en": [
+        "Luxembourg Findel"
+      ]
+    },
+    "carriers": [
+      "Luxair",
+      "Air Canada",
+      "Lufthansa",
+      "Air France",
+      "KLM"
+    ],
+    "flightDuration": {
+      "fr": "10 à 13 h avec une escale",
+      "en": "10 to 13 hr with one stop"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et les vacances de fin d’année",
+      "en": "July, August and the Christmas holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport luxembourgeois en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Luxembourg passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-monegasques",
+      "en": "monegasque-citizens"
+    },
+    "country": {
+      "fr": "Monaco",
+      "en": "Monaco"
+    },
+    "countryShort": {
+      "fr": "Monaco",
+      "en": "Monaco"
+    },
+    "nationality": {
+      "fr": "monégasque",
+      "en": "Monegasque"
+    },
+    "adjective": {
+      "fr": "monégasque",
+      "en": "Monegasque"
+    },
+    "demonym": {
+      "fr": "Monégasques",
+      "en": "Monegasque"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "B",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Départ depuis Nice-Côte d’Azur, à une trentaine de minutes : vols saisonniers directs vers Montréal, ou correspondance via Paris et les grandes plateformes européennes.",
+      "en": "Departures from Nice Côte d’Azur, about thirty minutes away: seasonal nonstop flights to Montreal, or connections via Paris and the main European hubs."
+    },
+    "transitWarning": {
+      "fr": "Si vous voyagez avec une autre nationalité que monégasque, demandez l'AVE avec le passeport que vous présenterez à l'embarquement.",
+      "en": "If you also hold another nationality, apply for the eTA with the passport you will show when boarding."
+    },
+    "airports": {
+      "fr": [
+        "Nice-Côte d’Azur"
+      ],
+      "en": [
+        "Nice Côte d’Azur"
+      ]
+    },
+    "carriers": [
+      "Air Transat",
+      "Air Canada",
+      "Air France"
+    ],
+    "flightDuration": {
+      "fr": "Environ 8 h 30 vers Montréal en direct, 10 à 12 h avec une escale",
+      "en": "About 8 hr 30 min to Montreal nonstop, 10 to 12 hr with one stop"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et les vacances de fin d’année",
+      "en": "July, August and the Christmas holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport monégasque en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Monegasque passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-britanniques",
+      "en": "british-citizens"
+    },
+    "country": {
+      "fr": "le Royaume-Uni",
+      "en": "the United Kingdom"
+    },
+    "countryShort": {
+      "fr": "Royaume-Uni",
+      "en": "United Kingdom"
+    },
+    "nationality": {
+      "fr": "britannique",
+      "en": "British"
+    },
+    "adjective": {
+      "fr": "britannique",
+      "en": "British"
+    },
+    "demonym": {
+      "fr": "Britanniques",
+      "en": "British"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "GBP (£)",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Nombreux vols directs au départ de Londres vers Toronto, Montréal, Vancouver et Calgary, et vols saisonniers depuis plusieurs aéroports régionaux.",
+      "en": "Many nonstop flights from London to Toronto, Montreal, Vancouver and Calgary, plus seasonal flights from several regional airports."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Londres-Heathrow",
+        "Londres-Gatwick",
+        "Manchester",
+        "Glasgow"
+      ],
+      "en": [
+        "London Heathrow",
+        "London Gatwick",
+        "Manchester",
+        "Glasgow"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "British Airways",
+      "WestJet",
+      "Air Transat"
+    ],
+    "flightDuration": {
+      "fr": "Environ 7 à 8 h vers Montréal ou Toronto, 9 h 30 vers Vancouver",
+      "en": "About 7 to 8 hr to Montreal or Toronto, 9 hr 30 min to Vancouver"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 5 h de retard, Vancouver 8 h",
+      "en": "Montreal and Toronto are 5 hr behind, Vancouver 8 hr behind"
+    },
+    "highSeason": {
+      "fr": "les vacances d'été (juillet-août) et Noël",
+      "en": "the summer holidays (July-August) and Christmas"
+    },
+    "passportNote": {
+      "fr": "Passeport de citoyen britannique (British citizen) en cours de validité. L'AVE y est liée : en cas de nouveau passeport, il faut en demander une nouvelle.",
+      "en": "A valid British citizen passport. The eTA is linked to it: if you get a new passport, you must apply for a new one."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-allemands",
+      "en": "german-citizens"
+    },
+    "country": {
+      "fr": "l'Allemagne",
+      "en": "Germany"
+    },
+    "countryShort": {
+      "fr": "Allemagne",
+      "en": "Germany"
+    },
+    "nationality": {
+      "fr": "allemand",
+      "en": "German"
+    },
+    "adjective": {
+      "fr": "allemande",
+      "en": "German"
+    },
+    "demonym": {
+      "fr": "Allemands",
+      "en": "German"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Francfort et de Munich vers Toronto, Montréal, Vancouver et Calgary, et vols saisonniers depuis d'autres villes.",
+      "en": "Nonstop flights from Frankfurt and Munich to Toronto, Montreal, Vancouver and Calgary, plus seasonal flights from other cities."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Francfort",
+        "Munich",
+        "Düsseldorf"
+      ],
+      "en": [
+        "Frankfurt",
+        "Munich",
+        "Düsseldorf"
+      ]
+    },
+    "carriers": [
+      "Lufthansa",
+      "Air Canada",
+      "Condor"
+    ],
+    "flightDuration": {
+      "fr": "Environ 8 à 9 h vers Toronto ou Montréal, 10 h vers Vancouver",
+      "en": "About 8 to 9 hr to Toronto or Montreal, 10 hr to Vancouver"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et les vacances de fin d’année",
+      "en": "July, August and the Christmas holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport allemand en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid German passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-italiens",
+      "en": "italian-citizens"
+    },
+    "country": {
+      "fr": "l'Italie",
+      "en": "Italy"
+    },
+    "countryShort": {
+      "fr": "Italie",
+      "en": "Italy"
+    },
+    "nationality": {
+      "fr": "italien",
+      "en": "Italian"
+    },
+    "adjective": {
+      "fr": "italienne",
+      "en": "Italian"
+    },
+    "demonym": {
+      "fr": "Italiens",
+      "en": "Italian"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Rome vers Toronto et Montréal, vols saisonniers depuis d'autres villes, et nombreuses correspondances européennes.",
+      "en": "Nonstop flights from Rome to Toronto and Montreal, seasonal flights from other cities, and many European connections."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Rome-Fiumicino",
+        "Milan-Malpensa",
+        "Venise"
+      ],
+      "en": [
+        "Rome Fiumicino",
+        "Milan Malpensa",
+        "Venice"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "Air Transat"
+    ],
+    "flightDuration": {
+      "fr": "Environ 9 à 10 h vers Toronto ou Montréal en direct",
+      "en": "About 9 to 10 hr to Toronto or Montreal nonstop"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et les vacances de fin d’année",
+      "en": "July, August and the Christmas holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport italien en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Italian passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-espagnols",
+      "en": "spanish-citizens"
+    },
+    "country": {
+      "fr": "l'Espagne",
+      "en": "Spain"
+    },
+    "countryShort": {
+      "fr": "Espagne",
+      "en": "Spain"
+    },
+    "nationality": {
+      "fr": "espagnol",
+      "en": "Spanish"
+    },
+    "adjective": {
+      "fr": "espagnole",
+      "en": "Spanish"
+    },
+    "demonym": {
+      "fr": "Espagnols",
+      "en": "Spanish"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Madrid et de Barcelone vers Toronto et Montréal, en partie saisonniers, et correspondances via les grandes plateformes européennes.",
+      "en": "Nonstop flights from Madrid and Barcelona to Toronto and Montreal, some seasonal, and connections via the main European hubs."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Madrid-Barajas",
+        "Barcelone-El Prat"
+      ],
+      "en": [
+        "Madrid Barajas",
+        "Barcelona El Prat"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "Air Transat"
+    ],
+    "flightDuration": {
+      "fr": "Environ 8 à 9 h vers Toronto ou Montréal en direct",
+      "en": "About 8 to 9 hr to Toronto or Montreal nonstop"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et la Semaine sainte",
+      "en": "July, August and Holy Week"
+    },
+    "passportNote": {
+      "fr": "Passeport espagnol en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Spanish passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-neerlandais",
+      "en": "dutch-citizens"
+    },
+    "country": {
+      "fr": "les Pays-Bas",
+      "en": "the Netherlands"
+    },
+    "countryShort": {
+      "fr": "Pays-Bas",
+      "en": "Netherlands"
+    },
+    "nationality": {
+      "fr": "néerlandais",
+      "en": "Dutch"
+    },
+    "adjective": {
+      "fr": "néerlandaise",
+      "en": "Dutch"
+    },
+    "demonym": {
+      "fr": "Néerlandais",
+      "en": "Dutch"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ d'Amsterdam vers Toronto, Montréal, Vancouver et Calgary.",
+      "en": "Nonstop flights from Amsterdam to Toronto, Montreal, Vancouver and Calgary."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Amsterdam-Schiphol"
+      ],
+      "en": [
+        "Amsterdam Schiphol"
+      ]
+    },
+    "carriers": [
+      "KLM",
+      "Air Canada"
+    ],
+    "flightDuration": {
+      "fr": "Environ 7 h 30 à 8 h 30 vers Toronto ou Montréal, 9 h 30 vers Vancouver",
+      "en": "About 7 hr 30 min to 8 hr 30 min to Toronto or Montreal, 9 hr 30 min to Vancouver"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 6 h de retard, Vancouver 9 h",
+      "en": "Montreal and Toronto are 6 hr behind, Vancouver 9 hr behind"
+    },
+    "highSeason": {
+      "fr": "juillet, août et les vacances de fin d’année",
+      "en": "July, August and the Christmas holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport néerlandais en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Dutch passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-irlandais",
+      "en": "irish-citizens"
+    },
+    "country": {
+      "fr": "l'Irlande",
+      "en": "Ireland"
+    },
+    "countryShort": {
+      "fr": "Irlande",
+      "en": "Ireland"
+    },
+    "nationality": {
+      "fr": "irlandais",
+      "en": "Irish"
+    },
+    "adjective": {
+      "fr": "irlandaise",
+      "en": "Irish"
+    },
+    "demonym": {
+      "fr": "Irlandais",
+      "en": "Irish"
+    },
+    "region": {
+      "fr": "Europe",
+      "en": "Europe"
+    },
+    "currency": "EUR (€)",
+    "templateType": "A",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Dublin vers Toronto, et vols saisonniers vers d'autres villes canadiennes.",
+      "en": "Nonstop flights from Dublin to Toronto, plus seasonal flights to other Canadian cities."
+    },
+    "transitWarning": null,
+    "airports": {
+      "fr": [
+        "Dublin",
+        "Shannon (vols via une escale)"
+      ],
+      "en": [
+        "Dublin",
+        "Shannon (connecting flights)"
+      ]
+    },
+    "carriers": [
+      "Aer Lingus",
+      "Air Canada",
+      "WestJet"
+    ],
+    "flightDuration": {
+      "fr": "Environ 7 h à 7 h 30 vers Toronto en direct",
+      "en": "About 7 hr to 7 hr 30 min to Toronto nonstop"
+    },
+    "timezone": {
+      "fr": "Montréal et Toronto ont 5 h de retard, Vancouver 8 h",
+      "en": "Montreal and Toronto are 5 hr behind, Vancouver 8 hr behind"
+    },
+    "highSeason": {
+      "fr": "l'été (juillet-août) et la période de Noël",
+      "en": "summer (July-August) and the Christmas period"
+    },
+    "passportNote": {
+      "fr": "Passeport irlandais en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Irish passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-des-emirats-arabes-unis",
+      "en": "uae-citizens"
+    },
+    "country": {
+      "fr": "les Émirats arabes unis",
+      "en": "the United Arab Emirates"
+    },
+    "countryShort": {
+      "fr": "Émirats arabes unis",
+      "en": "United Arab Emirates"
+    },
+    "nationality": {
+      "fr": "émirien",
+      "en": "Emirati"
+    },
+    "adjective": {
+      "fr": "émirienne",
+      "en": "Emirati"
+    },
+    "demonym": {
+      "fr": "Émiriens",
+      "en": "Emirati"
+    },
+    "region": {
+      "fr": "Moyen-Orient",
+      "en": "Middle East"
+    },
+    "currency": "AED",
+    "templateType": "C",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Dubaï vers Toronto, et nombreuses correspondances via l'Europe.",
+      "en": "Nonstop flights from Dubai to Toronto, and many connections via Europe."
+    },
+    "transitWarning": {
+      "fr": "Les Émiriens ne bénéficient pas de l'ESTA américaine : une escale aux États-Unis exige un visa américain, en plus de l'AVE. Préférez un vol direct ou une escale en Europe.",
+      "en": "Emirati citizens are not eligible for the US ESTA: a connection in the United States requires a US visa in addition to the eTA. Prefer a nonstop flight or a European connection."
+    },
+    "airports": {
+      "fr": [
+        "Dubaï",
+        "Abou Dabi"
+      ],
+      "en": [
+        "Dubai",
+        "Abu Dhabi"
+      ]
+    },
+    "carriers": [
+      "Emirates",
+      "Air Canada"
+    ],
+    "flightDuration": {
+      "fr": "Environ 14 h vers Toronto en direct",
+      "en": "About 14 hr to Toronto nonstop"
+    },
+    "timezone": {
+      "fr": "Toronto a 8 h de retard sur Dubaï en été, 9 h en hiver",
+      "en": "Toronto is 8 hr behind Dubai in summer, 9 hr in winter"
+    },
+    "highSeason": {
+      "fr": "les mois d'été et les congés de l'Aïd",
+      "en": "the summer months and the Eid holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport émirien en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Emirati passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-japonais",
+      "en": "japanese-citizens"
+    },
+    "country": {
+      "fr": "le Japon",
+      "en": "Japan"
+    },
+    "countryShort": {
+      "fr": "Japon",
+      "en": "Japan"
+    },
+    "nationality": {
+      "fr": "japonais",
+      "en": "Japanese"
+    },
+    "adjective": {
+      "fr": "japonaise",
+      "en": "Japanese"
+    },
+    "demonym": {
+      "fr": "Japonais",
+      "en": "Japanese"
+    },
+    "region": {
+      "fr": "Asie",
+      "en": "Asia"
+    },
+    "currency": "JPY (¥)",
+    "templateType": "C",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Tokyo vers Vancouver et Toronto, et vols saisonniers vers d'autres villes canadiennes.",
+      "en": "Nonstop flights from Tokyo to Vancouver and Toronto, plus seasonal flights to other Canadian cities."
+    },
+    "transitWarning": {
+      "fr": "Une escale aux États-Unis exige une autorisation ESTA en plus de l'AVE canadienne.",
+      "en": "A connection in the United States requires an ESTA in addition to the Canadian eTA."
+    },
+    "airports": {
+      "fr": [
+        "Tokyo-Narita",
+        "Tokyo-Haneda",
+        "Osaka-Kansai"
+      ],
+      "en": [
+        "Tokyo Narita",
+        "Tokyo Haneda",
+        "Osaka Kansai"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "Japan Airlines",
+      "ANA"
+    ],
+    "flightDuration": {
+      "fr": "Environ 9 h vers Vancouver, 12 h vers Toronto en direct",
+      "en": "About 9 hr to Vancouver, 12 hr to Toronto nonstop"
+    },
+    "timezone": {
+      "fr": "Vancouver a 16 à 17 h de retard sur Tokyo, Toronto 13 à 14 h",
+      "en": "Vancouver is 16 to 17 hr behind Tokyo, Toronto 13 to 14 hr"
+    },
+    "highSeason": {
+      "fr": "la Golden Week (fin avril-début mai), l'été et la fin d'année",
+      "en": "Golden Week (late April to early May), summer and the year-end holidays"
+    },
+    "passportNote": {
+      "fr": "Passeport japonais en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Japanese passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-sud-coreens",
+      "en": "south-korean-citizens"
+    },
+    "country": {
+      "fr": "la Corée du Sud",
+      "en": "South Korea"
+    },
+    "countryShort": {
+      "fr": "Corée du Sud",
+      "en": "South Korea"
+    },
+    "nationality": {
+      "fr": "sud-coréen",
+      "en": "South Korean"
+    },
+    "adjective": {
+      "fr": "sud-coréenne",
+      "en": "South Korean"
+    },
+    "demonym": {
+      "fr": "Sud-Coréens",
+      "en": "South Korean"
+    },
+    "region": {
+      "fr": "Asie",
+      "en": "Asia"
+    },
+    "currency": "KRW (₩)",
+    "templateType": "C",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Séoul-Incheon vers Vancouver et Toronto.",
+      "en": "Nonstop flights from Seoul Incheon to Vancouver and Toronto."
+    },
+    "transitWarning": {
+      "fr": "Une escale aux États-Unis exige une autorisation ESTA en plus de l'AVE canadienne.",
+      "en": "A connection in the United States requires an ESTA in addition to the Canadian eTA."
+    },
+    "airports": {
+      "fr": [
+        "Séoul-Incheon"
+      ],
+      "en": [
+        "Seoul Incheon"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "Korean Air"
+    ],
+    "flightDuration": {
+      "fr": "Environ 10 h vers Vancouver, 13 h vers Toronto en direct",
+      "en": "About 10 hr to Vancouver, 13 hr to Toronto nonstop"
+    },
+    "timezone": {
+      "fr": "Vancouver a 16 à 17 h de retard sur Séoul, Toronto 13 à 14 h",
+      "en": "Vancouver is 16 to 17 hr behind Seoul, Toronto 13 to 14 hr"
+    },
+    "highSeason": {
+      "fr": "l'été (juillet-août), Chuseok et le Nouvel An lunaire",
+      "en": "summer (July-August), Chuseok and Lunar New Year"
+    },
+    "passportNote": {
+      "fr": "Passeport sud-coréen en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid South Korean passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  },
+  {
+    "slug": {
+      "fr": "citoyens-australiens",
+      "en": "australian-citizens"
+    },
+    "country": {
+      "fr": "l'Australie",
+      "en": "Australia"
+    },
+    "countryShort": {
+      "fr": "Australie",
+      "en": "Australia"
+    },
+    "nationality": {
+      "fr": "australien",
+      "en": "Australian"
+    },
+    "adjective": {
+      "fr": "australienne",
+      "en": "Australian"
+    },
+    "demonym": {
+      "fr": "Australiens",
+      "en": "Australian"
+    },
+    "region": {
+      "fr": "Océanie",
+      "en": "Oceania"
+    },
+    "currency": "AUD ($)",
+    "templateType": "C",
+    "yellowFever": false,
+    "flightInfo": {
+      "fr": "Vols directs au départ de Sydney et de Brisbane vers Vancouver, en partie saisonniers, et correspondances via l'Asie ou les États-Unis.",
+      "en": "Nonstop flights from Sydney and Brisbane to Vancouver, some seasonal, and connections via Asia or the United States."
+    },
+    "transitWarning": {
+      "fr": "Une escale aux États-Unis (Los Angeles, San Francisco, Honolulu) exige une autorisation ESTA en plus de l'AVE canadienne.",
+      "en": "A connection in the United States (Los Angeles, San Francisco, Honolulu) requires an ESTA in addition to the Canadian eTA."
+    },
+    "airports": {
+      "fr": [
+        "Sydney",
+        "Brisbane",
+        "Melbourne"
+      ],
+      "en": [
+        "Sydney",
+        "Brisbane",
+        "Melbourne"
+      ]
+    },
+    "carriers": [
+      "Air Canada",
+      "Qantas"
+    ],
+    "flightDuration": {
+      "fr": "Environ 14 à 15 h vers Vancouver en direct",
+      "en": "About 14 to 15 hr to Vancouver nonstop"
+    },
+    "timezone": {
+      "fr": "Vancouver a 17 à 19 h de retard sur Sydney selon la saison",
+      "en": "Vancouver is 17 to 19 hr behind Sydney depending on the season"
+    },
+    "highSeason": {
+      "fr": "décembre-janvier (vacances d'été australes, saison de ski au Canada) et juillet",
+      "en": "December-January (Australian summer holidays, ski season in Canada) and July"
+    },
+    "passportNote": {
+      "fr": "Passeport australien en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
+      "en": "A valid Australian passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    }
+  }
+]
