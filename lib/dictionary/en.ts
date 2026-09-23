@@ -48,14 +48,8 @@ export const en: Dictionary = {
     switchLanguage: 'View this page in French',
   },
 
-  banner: {
-    strong: 'Private, non-government website.',
-    text: 'You can also apply directly on canada.ca for CAD 7:',
-    link: 'official website',
-  },
-
   disclaimer:
-    'This site is a private application-assistance and checking service. It is neither the Government of Canada website nor a consular service. You can apply for an eTA yourself on canada.ca, the only official website, for CAD 7.',
+    'This site is a private application-assistance and checking service. It is neither the Government of Canada website nor a consular service.',
 
   hours: 'by email',
 
@@ -95,7 +89,6 @@ export const en: Dictionary = {
     },
     popular: 'Most visited pages',
     independenceTitle: 'A private service, independent of the Government of Canada',
-    officialPortal: 'Official website',
     rights: 'All rights reserved.',
     emailLabel: 'Email address',
   },
@@ -210,11 +203,6 @@ export const en: Dictionary = {
       question: 'Do US citizens need an eTA?',
       answer:
         'No. US citizens are exempt. US lawful permanent residents have also been exempt since April 26, 2022, provided they present their passport and a valid green card.',
-    },
-    {
-      question: 'Can I apply myself?',
-      answer:
-        'Yes. The official application is on canada.ca for CAD 7. Our service is optional: you pay for the application check and support, on top of the official fee.',
     },
   ],
 
@@ -535,6 +523,10 @@ export const en: Dictionary = {
       blocks: [
         { kind: 'heading', text: 'Nature of the service' },
         { kind: 'paragraph', text: '{disclaimer}' },
+        {
+          kind: 'paragraph',
+          text: 'You can apply for an eTA yourself on canada.ca, the only official Government of Canada website, for CAD 7.',
+        },
         {
           kind: 'paragraph',
           text: 'The service consists of paid assistance with preparing and checking the eTA application. The decision to grant or refuse the eTA, and entry to Canada, rests solely with the Canadian authorities.',

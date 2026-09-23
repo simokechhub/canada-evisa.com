@@ -54,14 +54,8 @@ export const fr = {
     switchLanguage: 'Voir cette page en anglais',
   },
 
-  banner: {
-    strong: 'Site privé, non gouvernemental.',
-    text: 'La demande officielle se fait aussi directement sur canada.ca pour 7 CAD :',
-    link: 'site officiel',
-  },
-
   disclaimer:
-    "Ce site est un service privé d'assistance et de vérification de demandes. Il n'est ni le site du gouvernement du Canada, ni un service consulaire. Vous pouvez faire votre demande d'AVE vous-même sur canada.ca, le seul site officiel, pour 7 CAD.",
+    "Ce site est un service privé d'assistance et de vérification de demandes. Il n'est ni le site du gouvernement du Canada, ni un service consulaire.",
 
   hours: 'par e-mail',
 
@@ -102,7 +96,6 @@ export const fr = {
     },
     popular: 'Pages les plus consultées',
     independenceTitle: 'Service privé, indépendant du gouvernement du Canada',
-    officialPortal: 'Site officiel',
     rights: 'Tous droits réservés.',
     emailLabel: 'Adresse e-mail',
   },
@@ -218,11 +211,6 @@ export const fr = {
       question: 'Les citoyens américains ont-ils besoin d’une AVE ?',
       answer:
         "Non. Les citoyens des États-Unis en sont dispensés. Les résidents permanents des États-Unis le sont aussi depuis le 26 avril 2022, à condition de présenter leur passeport et leur carte verte valide.",
-    },
-    {
-      question: 'Puis-je faire la demande moi-même ?',
-      answer:
-        "Oui. La demande officielle se fait sur canada.ca pour 7 CAD. Notre service est facultatif : vous payez la vérification de la demande et l'accompagnement, en plus de la redevance officielle.",
     },
   ],
 
@@ -551,6 +539,10 @@ export const fr = {
       blocks: [
         { kind: 'heading', text: 'Nature du service' },
         { kind: 'paragraph', text: '{disclaimer}' },
+        {
+          kind: 'paragraph',
+          text: "Vous pouvez faire votre demande d'AVE vous-même sur canada.ca, le seul site officiel du gouvernement du Canada, pour 7 CAD.",
+        },
         {
           kind: 'paragraph',
           text: "Le service consiste en une assistance payante à la préparation et à la vérification de la demande d'AVE. La décision d'accorder ou de refuser l'AVE, puis l'entrée au Canada, appartient exclusivement aux autorités canadiennes.",

@@ -38,7 +38,6 @@ export function GET() {
 - US citizens are exempt. US lawful permanent residents have been exempt since April 26, 2022, with a valid passport and green card.
 - Official fee: CAD ${OFFICIAL_FEE_CAD}. Most applications are approved within minutes; some require additional documents.
 - The eTA is electronically linked to the passport used to apply. A new passport requires a new eTA. Dual Canadian citizens must travel with a Canadian passport.
-- The only official application website is canada.ca.
 
 ## Main pages
 

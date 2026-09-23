@@ -113,17 +113,6 @@ export default function Footer({ locale }: { locale: Locale }) {
         <div className="mt-10 rounded-2xl border border-white/10 bg-white/5 p-5 text-sm leading-relaxed text-slate-300">
           <p className="font-semibold text-white">{f.independenceTitle}</p>
           <p className="mt-2">{t.disclaimer}</p>
-          <p className="mt-2">
-            {f.officialPortal} :{' '}
-            <a
-              href={locale === 'fr' ? site.officialPortalFr : site.officialPortal}
-              rel="noopener noreferrer nofollow"
-              target="_blank"
-              className="underline decoration-slate-500 underline-offset-2 hover:text-white"
-            >
-              canada.ca
-            </a>
-          </p>
         </div>
 
         <p className="mt-8 text-xs text-slate-500">

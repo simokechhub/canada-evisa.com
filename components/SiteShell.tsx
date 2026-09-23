@@ -1,5 +1,4 @@
 import Header from '@/components/Header'
-import DisclaimerBanner from '@/components/DisclaimerBanner'
 import Footer from '@/components/Footer'
 import TawkChat from '@/components/TawkChat'
 import type { Locale } from '@/lib/i18n'
@@ -23,7 +22,6 @@ export default function SiteShell({
       >
         {t.header.skipToContent}
       </a>
-      <DisclaimerBanner locale={locale} />
       <Header locale={locale} />
       <main id="contenu" className="flex-1">
         {children}
