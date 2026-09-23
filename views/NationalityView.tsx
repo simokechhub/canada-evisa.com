@@ -76,9 +76,10 @@ export default function NationalityView({
       <JsonLd data={schema} />
       <JsonLd data={faqSchema} />
 
-      <div className="bg-ocean-950">
+      {/* Fond clair rosé, cohérent avec l’en-tête des autres pages internes. */}
+      <div className="border-b border-ocean-950/10 bg-[#fbf1f0]">
         <div className="container-page py-12 sm:py-16">
-          <div className="[&_a]:text-ocean-300 [&_span]:text-ocean-200">
+          <div>
             <Breadcrumbs
               locale={locale}
               items={[
@@ -88,19 +89,19 @@ export default function NationalityView({
             />
           </div>
 
-          <p className="eyebrow mt-6 text-ocean-300">{template.label}</p>
-          <h1 className="mt-2 max-w-3xl text-3xl font-semibold text-white sm:text-4xl">
+          <p className="eyebrow mt-6 text-ocean-700">{template.label}</p>
+          <h1 className="mt-2 max-w-3xl text-3xl font-semibold text-ocean-950 sm:text-4xl">
             {format(p.title, vars)}
           </h1>
-          <p className="mt-4 max-w-2xl text-[16px] leading-relaxed text-ocean-100">
+          <p className="mt-4 max-w-2xl text-[16px] leading-relaxed text-slate-600">
             {format(template.summary, vars)}
           </p>
 
           <dl className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {facts.map((item) => (
-              <div key={item.label} className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                <dt className="text-xs uppercase tracking-wide text-ocean-300">{item.label}</dt>
-                <dd className="mt-1.5 text-sm font-medium text-white">{item.value}</dd>
+              <div key={item.label} className="rounded-2xl border border-ocean-200 bg-white p-4">
+                <dt className="text-xs uppercase tracking-wide text-ocean-700">{item.label}</dt>
+                <dd className="mt-1.5 text-sm font-medium text-ocean-950">{item.value}</dd>
               </div>
             ))}
           </dl>
@@ -108,13 +109,13 @@ export default function NationalityView({
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={path('apply', locale)}
-              className="btn bg-white text-ocean-900 hover:bg-ocean-50"
+              className="btn bg-sand-400 text-white hover:bg-sand-300"
             >
               {t.actions.start}
             </Link>
             <Link
               href={path('requirements', locale)}
-              className="btn border border-white/25 text-white hover:bg-white/10"
+              className="btn-secondary"
             >
               {t.nav.requirements}
             </Link>
