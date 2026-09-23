@@ -535,7 +535,7 @@ export const fr = {
     updatedAt: '23 septembre 2026',
     notice: {
       metaTitle: 'Mentions légales',
-      metaDescription: 'Mentions légales du site : éditeur, hébergeur et nature du service.',
+      metaDescription: 'Mentions légales de canada-evisa.com : éditeur, siège social, nature de ce service privé d’assistance à l’AVE et propriété intellectuelle.',
       title: 'Mentions légales',
       blocks: [
         { kind: 'heading', text: 'Nature du service' },

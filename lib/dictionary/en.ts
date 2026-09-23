@@ -441,7 +441,7 @@ export const en: Dictionary = {
 
   contactPage: {
     metaTitle: 'Contact us',
-    metaDescription: 'A question about your Canada eTA? Send a secure message to our team.',
+    metaDescription: 'A question about your Canada eTA application or an application in progress? Send a secure message to our team and get a reply by email.',
     title: 'Contact us',
     intro:
       'We reply by email as soon as possible. For a question about an application in progress, include the reference you received after payment.',
@@ -519,7 +519,7 @@ export const en: Dictionary = {
     updatedAt: 'September 23, 2026',
     notice: {
       metaTitle: 'Legal notice',
-      metaDescription: 'Legal notice: publisher, host and nature of the service.',
+      metaDescription: 'Legal notice of canada-evisa.com: publisher, registered office, nature of this private eTA assistance service and intellectual property.',
       title: 'Legal notice',
       blocks: [
         { kind: 'heading', text: 'Nature of the service' },
