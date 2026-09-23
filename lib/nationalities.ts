@@ -23,6 +23,12 @@ export type NationalityRecord = {
   timezone: Localized<string>
   highSeason: Localized<string>
   passportNote: Localized<string>
+  /** Informations pratiques propres au pays, pour enrichir la page. */
+  plugs: Localized<string>
+  usTrip: Localized<string>
+  language: Localized<string>
+  specialNote: Localized<string> | null
+  tripIdea: Localized<string>
 }
 
 /** Entrée résolue dans une langue, telle que la consomment les composants. */
@@ -46,6 +52,11 @@ export type Nationality = {
   timezone: string
   highSeason: string
   passportNote: string
+  plugs: string
+  usTrip: string
+  language: string
+  specialNote: string | null
+  tripIdea: string
 }
 
 export const nationalityRecords = raw as NationalityRecord[]
@@ -71,6 +82,11 @@ function resolve(record: NationalityRecord, locale: Locale): Nationality {
     timezone: record.timezone[locale],
     highSeason: record.highSeason[locale],
     passportNote: record.passportNote[locale],
+    plugs: record.plugs[locale],
+    usTrip: record.usTrip[locale],
+    language: record.language[locale],
+    specialNote: record.specialNote ? record.specialNote[locale] : null,
+    tripIdea: record.tripIdea[locale],
   }
 }
 

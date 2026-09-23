@@ -46,6 +46,10 @@ export function nationalityFaqs(data: Nationality, locale: Locale): FaqItem[] {
     { question: format(q.timezoneQ, vars), answer: format(q.timezoneA, vars) },
     { question: format(q.seasonQ, vars), answer: format(q.seasonA, vars) },
     { question: format(q.passportQ, vars), answer: data.passportNote },
+    { question: format(q.tripQ, vars), answer: data.tripIdea },
+    { question: format(q.usTripQ, vars), answer: data.usTrip },
+    { question: format(q.plugsQ, vars), answer: data.plugs },
+    { question: format(q.languageQ, vars), answer: data.language },
   ]
 
   return items.filter((item): item is FaqItem => item !== null)

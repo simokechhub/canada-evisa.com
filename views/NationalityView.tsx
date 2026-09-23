@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Section from '@/components/Section'
-import Steps from '@/components/Steps'
 import RequirementsList from '@/components/RequirementsList'
 import FaqAccordion from '@/components/FaqAccordion'
 import NationalityGrid from '@/components/NationalityGrid'
@@ -192,10 +191,36 @@ export default function NationalityView({
       </Section>
 
       <Section
-        eyebrow={p.docsEyebrow}
-        title={format(p.docsTitle, vars)}
+        eyebrow={p.goodToKnowEyebrow}
+        title={format(p.goodToKnowTitle, vars)}
         className="bg-slate-50"
       >
+        {/* Informations pratiques propres au pays : ce qui distingue vraiment les pages. */}
+        <div className="card mb-6">
+          <h3 className="text-lg font-semibold">{format(p.tripIdeaTitle, vars)}</h3>
+          <p className="mt-2 text-[15px] leading-relaxed text-slate-700">{data.tripIdea}</p>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          {[
+            { title: p.usTripTitle, body: data.usTrip },
+            { title: p.plugsTitle, body: data.plugs },
+            { title: p.languageTitle, body: data.language },
+          ].map((item) => (
+            <div key={item.title} className="card">
+              <h3 className="text-base font-semibold">{item.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">{item.body}</p>
+            </div>
+          ))}
+        </div>
+        {data.specialNote && (
+          <div className="card mt-6 border-sand-300 bg-sand-50">
+            <h3 className="text-base font-semibold">{p.specialTitle}</h3>
+            <p className="mt-2 text-sm leading-relaxed text-ocean-950">{data.specialNote}</p>
+          </div>
+        )}
+      </Section>
+
+      <Section eyebrow={p.docsEyebrow} title={format(p.docsTitle, vars)}>
         <RequirementsList locale={locale} limit={4} />
         <div className="mt-8">
           <Link href={path('requirements', locale)} className="btn-secondary">
@@ -204,9 +229,6 @@ export default function NationalityView({
         </div>
       </Section>
 
-      <Section eyebrow={p.stepsEyebrow} title={p.stepsTitle}>
-        <Steps locale={locale} />
-      </Section>
 
       <Section eyebrow={p.faqEyebrow} title={format(p.faqTitle, vars)} align="center">
         <FaqAccordion locale={locale} items={faqs} />

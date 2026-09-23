@@ -70,6 +70,26 @@
     "passportNote": {
       "fr": "Passeport français en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid French passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises européennes ; la plupart des chargeurs de téléphone et d'ordinateur acceptent les deux tensions, mais vérifiez-le pour les sèche-cheveux et appareils chauffants.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for European plugs; most phone and laptop chargers accept both voltages, but check hair dryers and heating appliances."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Français peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. French citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "Le français est langue officielle au Canada et langue majoritaire au Québec : à Montréal et à Québec, vous serez servi en français. Ailleurs, l'anglais domine, mais les services fédéraux sont bilingues.",
+      "en": "French is an official language of Canada and the majority language in Quebec: in Montreal and Quebec City, you will be served in French. Elsewhere English dominates, but federal services are bilingual."
+    },
+    "specialNote": {
+      "fr": "Depuis Saint-Pierre-et-Miquelon, archipel français voisin du Canada, une arrivée par la mer hors croisière exige aussi l'AVE, contrairement à la règle générale.",
+      "en": "From Saint Pierre and Miquelon, the French archipelago next to Canada, arriving by sea (other than on a cruise) also requires an eTA, unlike the general rule."
+    },
+    "tripIdea": {
+      "fr": "Pour un premier voyage depuis la France, beaucoup arrivent à Montréal, où l'on se sent vite chez soi grâce au français. Un circuit classique relie Montréal, Québec et la région de Charlevoix, avec une escapade à Tadoussac pour observer les baleines en été et au début de l'automne. Comptez dix à quatorze jours ; avec plus de temps, poursuivez vers Toronto et les chutes du Niagara.",
+      "en": "For a first trip from France, many travellers land in Montreal, where speaking French makes it easy to settle in. A classic loop links Montreal, Quebec City and the Charlevoix region, with a side trip to Tadoussac for whale watching in summer and early autumn. Allow ten to fourteen days; with more time, continue to Toronto and Niagara Falls."
     }
   },
   {
@@ -138,6 +158,23 @@
     "passportNote": {
       "fr": "Passeport belge en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Belgian passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises européennes ; la plupart des chargeurs de téléphone et d'ordinateur acceptent les deux tensions, mais vérifiez-le pour les sèche-cheveux et appareils chauffants.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for European plugs; most phone and laptop chargers accept both voltages, but check hair dryers and heating appliances."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Belges peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Belgian citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "Le français est langue officielle au Canada et langue majoritaire au Québec : à Montréal et à Québec, vous serez servi en français. Ailleurs, l'anglais domine, mais les services fédéraux sont bilingues.",
+      "en": "French is an official language of Canada and the majority language in Quebec: in Montreal and Quebec City, you will be served in French. Elsewhere English dominates, but federal services are bilingual."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Depuis la Belgique, Montréal est la porte d'entrée naturelle. Beaucoup combinent la ville avec les Laurentides ou la Mauricie pour les lacs et les forêts, puis terminent à Québec, dont le centre historique est inscrit au patrimoine mondial de l'UNESCO.",
+      "en": "From Belgium, Montreal is the natural gateway. Many travellers combine the city with the Laurentians or Mauricie for lakes and forests, then finish in Quebec City, whose historic centre is a UNESCO World Heritage site."
     }
   },
   {
@@ -206,6 +243,23 @@
     "passportNote": {
       "fr": "Passeport suisse en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Swiss passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises suisses ; vérifiez que vos appareils acceptent le 120 V.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for Swiss plugs and check that your devices accept 120 V."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Suisses peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Swiss citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "Le français est langue officielle au Canada et langue majoritaire au Québec : à Montréal et à Québec, vous serez servi en français. Ailleurs, l'anglais domine, mais les services fédéraux sont bilingues.",
+      "en": "French is an official language of Canada and the majority language in Quebec: in Montreal and Quebec City, you will be served in French. Elsewhere English dominates, but federal services are bilingual."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Les Rocheuses canadiennes, entre Banff et Jasper, attirent beaucoup de voyageurs suisses qui y retrouvent la montagne à une autre échelle. On y accède en avion via Calgary ou Vancouver ; la route des Glaciers (Icefields Parkway) relie Lake Louise à Jasper sur environ 230 km de lacs et de glaciers.",
+      "en": "The Canadian Rockies, between Banff and Jasper, draw many Swiss travellers who find mountains on a different scale. Fly in via Calgary or Vancouver; the Icefields Parkway links Lake Louise to Jasper over about 230 km of lakes and glaciers."
     }
   },
   {
@@ -278,6 +332,23 @@
     "passportNote": {
       "fr": "Passeport luxembourgeois en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Luxembourg passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises européennes ; la plupart des chargeurs de téléphone et d'ordinateur acceptent les deux tensions, mais vérifiez-le pour les sèche-cheveux et appareils chauffants.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for European plugs; most phone and laptop chargers accept both voltages, but check hair dryers and heating appliances."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Luxembourgeois peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Luxembourg citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "Le français est langue officielle au Canada et langue majoritaire au Québec : à Montréal et à Québec, vous serez servi en français. Ailleurs, l'anglais domine, mais les services fédéraux sont bilingues.",
+      "en": "French is an official language of Canada and the majority language in Quebec: in Montreal and Quebec City, you will be served in French. Elsewhere English dominates, but federal services are bilingual."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Sans vol direct, autant choisir la ville de correspondance en fonction de l'itinéraire : Montréal pour l'Est et le Québec, Vancouver ou Calgary pour l'Ouest. Un billet multi-destinations, avec arrivée dans l'Est et départ de l'Ouest, évite de revenir sur ses pas à travers ce pays immense.",
+      "en": "With no nonstop flight, pick your connecting city to suit your route: Montreal for the East and Quebec, Vancouver or Calgary for the West. A multi-city ticket, arriving in the East and leaving from the West, avoids backtracking across this vast country."
     }
   },
   {
@@ -348,6 +419,23 @@
     "passportNote": {
       "fr": "Passeport monégasque en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Monegasque passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises européennes ; la plupart des chargeurs de téléphone et d'ordinateur acceptent les deux tensions, mais vérifiez-le pour les sèche-cheveux et appareils chauffants.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for European plugs; most phone and laptop chargers accept both voltages, but check hair dryers and heating appliances."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Monégasques peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Monegasque citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "Le français est langue officielle au Canada et langue majoritaire au Québec : à Montréal et à Québec, vous serez servi en français. Ailleurs, l'anglais domine, mais les services fédéraux sont bilingues.",
+      "en": "French is an official language of Canada and the majority language in Quebec: in Montreal and Quebec City, you will be served in French. Elsewhere English dominates, but federal services are bilingual."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Depuis la Côte d'Azur, les vols saisonniers vers Montréal permettent de découvrir le Québec en été, puis de rejoindre les provinces maritimes : la Nouvelle-Écosse et l'Île-du-Prince-Édouard offrent un littoral atlantique très différent, avec phares, villages de pêcheurs et homard frais.",
+      "en": "From the Riviera, seasonal flights to Montreal make it easy to explore Quebec in summer, then head to the Maritime provinces: Nova Scotia and Prince Edward Island offer a very different Atlantic coast of lighthouses, fishing villages and fresh lobster."
     }
   },
   {
@@ -422,6 +510,23 @@
     "passportNote": {
       "fr": "Passeport de citoyen britannique (British citizen) en cours de validité. L'AVE y est liée : en cas de nouveau passeport, il faut en demander une nouvelle.",
       "en": "A valid British citizen passport. The eTA is linked to it: if you get a new passport, you must apply for a new one."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V, incompatibles avec les prises britanniques à trois broches : un adaptateur est indispensable.",
+      "en": "Canada uses type A and B sockets at 120 V, which do not fit British three-pin plugs: an adapter is essential."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Britanniques peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. British citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Toronto et Vancouver sont les destinations les plus directes depuis le Royaume-Uni. Un itinéraire apprécié combine Toronto et les chutes du Niagara, puis un vol vers Calgary pour les Rocheuses. Les liens entre les deux pays se lisent partout : le Canada est une monarchie constitutionnelle dont le roi Charles III est le chef d'État.",
+      "en": "Toronto and Vancouver are the most direct destinations from the UK. A popular route combines Toronto and Niagara Falls, then a flight to Calgary for the Rockies. Ties between the two countries show everywhere: Canada is a constitutional monarchy with King Charles III as head of state."
     }
   },
   {
@@ -493,6 +598,23 @@
     "passportNote": {
       "fr": "Passeport allemand en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid German passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises européennes ; la plupart des chargeurs de téléphone et d'ordinateur acceptent les deux tensions, mais vérifiez-le pour les sèche-cheveux et appareils chauffants.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for European plugs; most phone and laptop chargers accept both voltages, but check hair dryers and heating appliances."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Allemands peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. German citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "L'Ouest canadien se prête bien au voyage en camping-car, une formule très appréciée des voyageurs allemands : la Colombie-Britannique et le Yukon offrent des routes spectaculaires et des terrains de camping dans les parcs. Réservez le véhicule très tôt pour l'été et prévoyez de longues distances entre deux étapes.",
+      "en": "Western Canada lends itself to RV travel, a format very popular with German travellers: British Columbia and the Yukon offer spectacular roads and campgrounds in the parks. Book the vehicle well ahead for summer and allow for long distances between stops."
     }
   },
   {
@@ -563,6 +685,23 @@
     "passportNote": {
       "fr": "Passeport italien en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Italian passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises européennes ; la plupart des chargeurs de téléphone et d'ordinateur acceptent les deux tensions, mais vérifiez-le pour les sèche-cheveux et appareils chauffants.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for European plugs; most phone and laptop chargers accept both voltages, but check hair dryers and heating appliances."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Italiens peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Italian citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Toronto compte une importante communauté d'origine italienne, visible dans ses quartiers et ses restaurants. Beaucoup de voyageurs italiens combinent Toronto, les chutes du Niagara et Montréal, reliées entre elles en train ou en avion, pour un premier voyage centré sur l'Est.",
+      "en": "Toronto has a large community of Italian heritage, visible in its neighbourhoods and restaurants. Many Italian travellers combine Toronto, Niagara Falls and Montreal, linked by train or plane, for a first trip focused on the East."
     }
   },
   {
@@ -631,6 +770,23 @@
     "passportNote": {
       "fr": "Passeport espagnol en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Spanish passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises européennes ; la plupart des chargeurs de téléphone et d'ordinateur acceptent les deux tensions, mais vérifiez-le pour les sèche-cheveux et appareils chauffants.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for European plugs; most phone and laptop chargers accept both voltages, but check hair dryers and heating appliances."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Espagnols peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Spanish citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Depuis l'Espagne, un premier voyage se concentre souvent sur l'Est : Toronto, les chutes du Niagara, Ottawa la capitale, puis Montréal et Québec. Le train relie ces villes, ce qui permet de voyager sans voiture et de réserver l'avion pour les longues distances vers l'Ouest.",
+      "en": "From Spain, a first trip often focuses on the East: Toronto, Niagara Falls, the capital Ottawa, then Montreal and Quebec City. Trains link these cities, so you can travel without a car and keep flights for the long distances to the West."
     }
   },
   {
@@ -697,6 +853,23 @@
     "passportNote": {
       "fr": "Passeport néerlandais en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Dutch passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour vos prises européennes ; la plupart des chargeurs de téléphone et d'ordinateur acceptent les deux tensions, mais vérifiez-le pour les sèche-cheveux et appareils chauffants.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for European plugs; most phone and laptop chargers accept both voltages, but check hair dryers and heating appliances."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Néerlandais peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Dutch citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Amsterdam dessert directement plusieurs villes canadiennes, ce qui permet d'arriver dans l'Est et de repartir de l'Ouest. Les liens entre les deux pays restent forts : chaque printemps, Ottawa accueille son festival des tulipes, né d'un don de la famille royale néerlandaise après la Seconde Guerre mondiale.",
+      "en": "Amsterdam has nonstop flights to several Canadian cities, so you can arrive in the East and leave from the West. Ties between the two countries remain strong: every spring Ottawa hosts its Tulip Festival, born of a gift from the Dutch royal family after the Second World War."
     }
   },
   {
@@ -766,6 +939,23 @@
     "passportNote": {
       "fr": "Passeport irlandais en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Irish passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V, incompatibles avec les prises irlandaises à trois broches : un adaptateur est indispensable.",
+      "en": "Canada uses type A and B sockets at 120 V, which do not fit Irish three-pin plugs: an adapter is essential."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Irlandais peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Irish citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Terre-Neuve partage une longue histoire avec l'Irlande : accents, musique et noms de lieux y rappellent l'origine irlandaise d'une partie de la population. Sa capitale, Saint-Jean, est la ville la plus à l'est de l'Amérique du Nord, et une étape originale avant Toronto ou Montréal.",
+      "en": "Newfoundland shares a long history with Ireland: accents, music and place names recall the Irish roots of part of its population. Its capital, St. John's, is the easternmost city in North America and an unusual stop before Toronto or Montreal."
     }
   },
   {
@@ -837,6 +1027,23 @@
     "passportNote": {
       "fr": "Passeport émirien en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Emirati passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour les prises à trois broches utilisées aux Émirats et vérifiez la tension acceptée par vos appareils.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for the three-pin plugs used in the UAE and check the voltage your devices accept."
+    },
+    "usTrip": {
+      "fr": "Si vous combinez le Canada et les États-Unis, sachez que les Émiriens ne bénéficient pas de l'ESTA : l'entrée aux États-Unis exige un visa américain, à obtenir à l'avance auprès de l'ambassade ou d'un consulat américain.",
+      "en": "If you combine Canada and the United States, note that Emirati citizens are not eligible for the ESTA: entering the US requires a US visa, obtained in advance from a US embassy or consulate."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Depuis les Émirats, le vol direct vers Toronto est l'option la plus simple. Beaucoup en profitent pour découvrir les chutes du Niagara, à environ une heure et demie de route, ainsi que l'été canadien, bien plus frais que celui du Golfe, idéal pour les parcs et les lacs de l'Ontario.",
+      "en": "From the UAE, the nonstop flight to Toronto is the simplest option. Many travellers use it to visit Niagara Falls, about an hour and a half away by road, and enjoy the Canadian summer, much cooler than the Gulf, ideal for Ontario's parks and lakes."
     }
   },
   {
@@ -911,6 +1118,23 @@
     "passportNote": {
       "fr": "Passeport japonais en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Japanese passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Bonne nouvelle : le Canada utilise, comme le Japon, des prises de type A et B. La tension y est de 120 V contre 100 V au Japon, ce que la plupart des appareils électroniques acceptent.",
+      "en": "Good news: like Japan, Canada uses type A and B sockets. The voltage is 120 V versus 100 V in Japan, which most electronic devices accept."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Japonais peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Japanese citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Les aurores boréales attirent de nombreux voyageurs japonais à Yellowknife, dans les Territoires du Nord-Ouest, de la fin de l'été au printemps. Vancouver, à environ neuf heures de vol de Tokyo, est une bonne porte d'entrée vers l'Ouest et les Rocheuses.",
+      "en": "The northern lights draw many Japanese travellers to Yellowknife, in the Northwest Territories, from late summer to spring. Vancouver, about nine hours from Tokyo by air, is a good gateway to the West and the Rockies."
     }
   },
   {
@@ -980,6 +1204,23 @@
     "passportNote": {
       "fr": "Passeport sud-coréen en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid South Korean passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V. Prévoyez un adaptateur pour les prises coréennes et vérifiez la tension acceptée par vos appareils.",
+      "en": "Canada uses type A and B sockets at 120 V. Bring an adapter for Korean plugs and check the voltage your devices accept."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Sud-Coréens peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. South Korean citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Vancouver est la porte d'entrée la plus proche depuis Séoul et compte une importante communauté coréenne. Les Rocheuses, avec Banff et Lake Louise, et l'île de Vancouver, accessible en ferry, sont parmi les destinations les plus prisées des voyageurs sud-coréens.",
+      "en": "Vancouver is the closest gateway from Seoul and has a large Korean community. The Rockies, with Banff and Lake Louise, and Vancouver Island, reached by ferry, are among the most popular destinations for South Korean travellers."
     }
   },
   {
@@ -1053,6 +1294,23 @@
     "passportNote": {
       "fr": "Passeport australien en cours de validité. L'AVE y est liée électroniquement : en cas de nouveau passeport, il faut demander une nouvelle AVE.",
       "en": "A valid Australian passport. The eTA is electronically linked to it: if you get a new passport, you must apply for a new eTA."
+    },
+    "plugs": {
+      "fr": "Le Canada utilise des prises de type A et B en 120 V, incompatibles avec les prises australiennes : un adaptateur est indispensable.",
+      "en": "Canada uses type A and B sockets at 120 V, which do not fit Australian plugs: an adapter is essential."
+    },
+    "usTrip": {
+      "fr": "Beaucoup de voyageurs combinent le Canada et les États-Unis. Les Australiens peuvent en principe entrer aux États-Unis avec une autorisation ESTA, à demander séparément. Passer du Canada aux États-Unis par la route ou le train ne nécessite pas d'AVE, mais revenir au Canada en avion l'exige.",
+      "en": "Many travellers combine Canada and the United States. Australian citizens can generally enter the US with an ESTA, applied for separately. Crossing between Canada and the US by road or train does not require an eTA, but flying back into Canada does."
+    },
+    "language": {
+      "fr": "L'anglais est la langue courante dans la plupart du pays. Au Québec, la langue majoritaire est le français : quelques mots vous seront utiles, même si l'anglais est largement compris à Montréal.",
+      "en": "English is the everyday language in most of the country. In Quebec the majority language is French: a few words will help, although English is widely understood in Montreal."
+    },
+    "specialNote": null,
+    "tripIdea": {
+      "fr": "Whistler, à environ deux heures de Vancouver, est l'une des stations de ski les plus fréquentées par les Australiens, qui y viennent souvent pendant leurs vacances d'été, en plein hiver canadien. Pour un séjour plus long, les jeunes Australiens peuvent se renseigner sur le programme Expérience internationale Canada.",
+      "en": "Whistler, about two hours from Vancouver, is one of the ski resorts most visited by Australians, who often come during their summer holidays, in the middle of the Canadian winter. For a longer stay, young Australians can look into the International Experience Canada program."
     }
   }
 ]
