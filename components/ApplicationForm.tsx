@@ -89,8 +89,8 @@ export default function ApplicationForm({ locale, steps }: { locale: Locale; ste
     serviceFee: fr ? 'Frais de service' : 'Service fee',
     secure: fr ? 'Paiement sécurisé par Stripe' : 'Secure payment by Stripe',
     consent: fr
-      ? 'Je confirme l’exactitude des informations et j’accepte les conditions générales ainsi que la politique de confidentialité. Je sais que je peux aussi faire ma demande directement sur canada.ca pour 7 CAD.'
-      : 'I confirm that the information is accurate and accept the terms of service and privacy policy. I understand I can also apply directly on canada.ca for CAD 7.',
+      ? 'Je confirme l’exactitude des informations et j’accepte les conditions générales ainsi que la politique de confidentialité.'
+      : 'I confirm that the information is accurate and accept the terms of service and privacy policy.',
   }), [fr, locale])
 
   const stepTitles = [
