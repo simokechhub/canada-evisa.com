@@ -106,7 +106,7 @@ export const en: Dictionary = {
   },
 
   trust: [
-    { value: '10 min', label: 'to complete your application' },
+    { value: '5 min', label: 'to complete your application' },
     { value: 'Online', label: 'on phone, tablet or computer' },
     { value: 'Checked', label: 'before submission' },
     { value: '{count}', label: 'guides by nationality' },
@@ -269,7 +269,7 @@ export const en: Dictionary = {
   cta: {
     title: 'Do you have your passport to hand?',
     description:
-      'You can start now. The form takes about ten minutes, then an adviser checks the details before submission.',
+      'You can start now. The form takes about five minutes, then an adviser checks the details before submission.',
   },
 
   home: {

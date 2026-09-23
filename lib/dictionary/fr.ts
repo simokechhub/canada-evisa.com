@@ -113,7 +113,7 @@ export const fr = {
   },
 
   trust: [
-    { value: '10 min', label: 'pour remplir votre demande' },
+    { value: '5 min', label: 'pour remplir votre demande' },
     { value: 'En ligne', label: 'sur téléphone, tablette ou ordinateur' },
     { value: 'Vérifié', label: "avant l'envoi de la demande" },
     { value: '{count}', label: 'guides disponibles par nationalité' },
@@ -277,7 +277,7 @@ export const fr = {
   cta: {
     title: 'Vous avez votre passeport sous la main ?',
     description:
-      "Vous pouvez commencer. Le formulaire prend une dizaine de minutes, puis un conseiller vérifie les informations avant l'envoi.",
+      "Vous pouvez commencer. Le formulaire prend environ cinq minutes, puis un conseiller vérifie les informations avant l'envoi.",
   },
 
   home: {
