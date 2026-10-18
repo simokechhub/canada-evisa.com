@@ -19,6 +19,15 @@ const nextConfig = {
     return [
       { source: '/en', destination: '/', permanent: true },
       { source: '/en/:path*', destination: '/:path*', permanent: true },
+      // Racines de langue de l'ancien site hébergé sur ce domaine (WordPress
+      // multilingue, 2018-2019). Même sujet : on renvoie vers l'accueil. Les
+      // anciennes sous-pages restent en 404, une redirection générale vers
+      // l'accueil serait traitée comme un « soft 404 » par Google.
+      ...['de', 'it', 'es', 'ja', 'ko', 'nl', 'pl'].map((lang) => ({
+        source: `/${lang}`,
+        destination: '/',
+        permanent: true,
+      })),
     ]
   },
 }
